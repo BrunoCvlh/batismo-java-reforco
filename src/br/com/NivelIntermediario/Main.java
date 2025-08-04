@@ -8,6 +8,7 @@ public class Main {
         Sasuke.idade = 16;
 
         System.out.println(Sasuke.nome);
-
+        System.out.println(Sasuke.aldeia);
+        System.out.println(Sasuke.idade);
     }
 }
