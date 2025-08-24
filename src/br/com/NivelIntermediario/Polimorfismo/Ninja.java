@@ -42,4 +42,8 @@ public abstract class Ninja implements EspecialNinja {
         System.out.printf("\nO ninja %s jogou uma Shuriken\n", nome);
     };
 
+    @Override
+    public String toString() {
+        return "Meu nome é " + nome;
+    }
 }
