@@ -10,6 +10,10 @@ public abstract class Ninja implements EspecialNinja {
     int numeroDeMissoesConcluidas;
     NivelNinja rank;
 
+    final void tacarKunai(){
+        System.out.println("Sou um método da classe mãe!");
+    };
+
     //TODO: Sobrecarga do construtor chamando os novos atributos
     public Ninja(String nome, String aldeia, int idade) {
         this.nome = nome;

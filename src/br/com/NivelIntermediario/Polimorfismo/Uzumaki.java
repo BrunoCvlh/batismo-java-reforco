@@ -10,4 +10,5 @@ public class Uzumaki extends Ninja{
     public void JogarShuriken(){
         System.out.printf("\nO ninja %s utilizou Rasengan com Shuriken!",nome);
     };
+
 }
