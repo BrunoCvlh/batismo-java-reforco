@@ -11,6 +11,5 @@ public class Main {
         pacote.guardarItemNaBolsa(new Shuriken("Shuriken Gigante"));
 
         pacote.mostrarFerramentas();
-
     }
 }
